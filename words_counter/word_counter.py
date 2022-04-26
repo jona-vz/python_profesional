@@ -60,7 +60,7 @@ def words_counter(words_list: list)->dict:
 
 @execution_time
 def run():
-    path = '/home/jona_vz/Platzi/curso_python_profesional/final_project/vox_02.wav'
+    path = '/home/jona_vz/Platzi/curso_python_profesional/words_counter/vox_02.wav'
     
     words_list = audio_to_list(path)
     words = words_counter(words_list)
